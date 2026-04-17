@@ -69,9 +69,12 @@ Trained on the [Favorita Grocery Sales](https://www.kaggle.com/c/favorita-grocer
 
 | Metric | Baseline (lag_7) | XGBoost Model | Improvement |
 |---|---|---|---|
-| MAE | — | — | **36.5% reduction** |
-| RMSE | — | — | **55% reduction** |
-| Features | 1 | 54 | — |
+| MAE | 5.1714 | 3.2832 | **36.5% reduction** |
+| RMSE | 13.2046 | 10.2578 | **22.3% reduction** |
+| WMAPE (%) | 48.61 | 30.86 | **36.5% reduction** |
+| MAPE (%) | 92.60 | 57.56 | **37.8% reduction** |
+| SMAPE (%) | 58.31 | 40.40 | **30.7% reduction** |
+| R² | 0.6708 | 0.8013 | **19.5% improvement** |
 
 **Key features engineered:**
 - Lag features (7, 14, 28, 365 days)
