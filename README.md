@@ -1,4 +1,4 @@
-# 🛒 Demand Intelligence Agent
+# Demand Intelligence Agent
 
 An end-to-end **agentic AI system** for perishable retail demand forecasting. Combines a production-grade **XGBoost model** trained on 31.7M+ records with a **Claude-powered ReAct agent** that reasons, calls tools, and delivers plain-English inventory recommendations.
 
@@ -167,7 +167,7 @@ http://127.0.0.1:8000/ui
 You: Should I stock up at store 51, item 1239986?
 
 🔧 Calling tool: recommend_action
-✅ Tool result: RECOMMENDATION: STOCK UP
+   Tool result: RECOMMENDATION: STOCK UP
    Forecast: 1,312 units | 18.4% above recent average
    Top drivers: 7-day rolling average (2,574), weekend effect, no active promotion
 
@@ -209,15 +209,3 @@ The model was trained on 8 integrated data sources using PySpark:
 
 ---
 
-## Environment Variables
-
-```
-ANTHROPIC_API_KEY=your_key_here
-```
-
----
-
-## Author
-
-**Jaikeerthana Periyasamy**  
-[LinkedIn](https://www.linkedin.com/in/jai-keerthana-parthasarathy-a9358133b) · [GitHub](http://github.com/keerthanajai)
