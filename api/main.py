@@ -173,6 +173,8 @@ def chat_endpoint(req: ChatRequest):
         response = _agent.chat(req.message)
         return {"response": response}
     except Exception as e:
+        import traceback
+        print(traceback.format_exc())
         raise HTTPException(status_code=500, detail=f"Agent error: {str(e)}")
 
 
