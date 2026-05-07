@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+joblib
+pandas
+numpy
+xgboost
+shap
+anthropic
+python-dotenv
+streamlit
+pyarrow
+scikit-learn
+requests
