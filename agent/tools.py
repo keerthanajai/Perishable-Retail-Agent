@@ -1,7 +1,8 @@
 import requests
 from typing import Optional
 
-API_BASE = "http://127.0.0.1:8000"
+import os
+API_BASE = os.getenv("API_BASE", "http://127.0.0.1:8000")
 
 
 TOOL_DEFINITIONS = [
